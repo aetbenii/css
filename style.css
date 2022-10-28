@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
+
 body{
     background-color: #011627;
     font-family: 'Josefin Sans', sans-serif;
@@ -11,7 +12,7 @@ body{
 h1, h1, h3, h4{
     font-size: 4.3em;
     font-weight: bold;
-    
+    text-align: center;
 }
 
 strong, b {
@@ -19,3 +20,21 @@ strong, b {
     color: #FB7361;
 }
 
+p {
+    line-height: 1.7;
+}
+
+a:link {
+    color: #437F97;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #22547B;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FE291A;
+    text-decoration: none;
+}
